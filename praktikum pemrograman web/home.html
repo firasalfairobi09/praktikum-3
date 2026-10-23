@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Praktikum Pemrograman Web</title>
+  <style>
+    /* Hilangkan margin bawaan browser */
+    body {
+      margin: 0;
+      font-family: serif;
+    }
+
+    /* 1. Header (Warna Cyan / Biru Muda) */
+    header {
+      background-color: cyan;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    header p {
+      margin-top: 10px;
+      margin-bottom: 0;
+      font-weight: bold;
+    }
+
+    /* 2. Pembungkus Konten Utama (Berjajar ke Samping) */
+    .container {
+      display: flex;
+      min-height: 300px; /* Tinggi area tengah */
+    }
+
+    /* Sidebar Kiri (Daftar Menu) */
+    aside {
+      width: 20%;
+      border-right: 2px solid gray;
+      padding: 15px;
+    }
+
+    aside ol {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    aside li {
+      margin-bottom: 8px;
+    }
+
+    /* Konten Utama Kanan (Warna Pink) */
+    main {
+      width: 80%;
+      background-color: pink;
+      padding: 20px;
+    }
+
+    main h2 {
+      margin-top: 0;
+      font-size: 28px;
+    }
+
+    /* 3. Footer (Warna Hitam) */
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Bagian Header Atas -->
+  <header>
+    <h1>Praktikum Pemrograman Web</h1>
+    <p>Muhammad Firas Alfairobi (0110226028) - Teknik Informatika 2026</p>
+  </header>
+
+  <!-- Bagian Tengah (Sidebar & Konten) -->
+  <div class="container">
+    <!-- Menu Kiri -->
+    <aside>
+      <ol>
+        <li><a href="praktikum1/praktikum 1.html">Praktikum 1</a></li>
+        <li><a href="pizza_form.html.html">Praktikum 2</a></li>
+          <li><a href="praktikum3/index.html">Praktikum 3</a></li>
+      </ol>
+    </aside>
+
+    <!-- Isi Konten Kanan -->
+    main>
+      <h2>Praktikum 2</h2>
+    </main>
+  </div>
+
+  <!-- Bagian Bawah / Footer -->
+  <footer>
+    Dev By Firas © 2026
+  </footer>
+
+</body>
+</html>
